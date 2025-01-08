@@ -20,14 +20,18 @@ int main (){
 	do{
 		cout<<"Digita un numero:              ";
 		cin>>dato;
+
 		agregar(pila,dato);
+
 		cout<<"Desea agregar otro dato?(S/N)  ";
 		cin>>opc;
 	}while((opc== 'S') || (opc == 's'));
 	
 	cout<<"Eliminando elementos de la pila"<<endl;
+	
 	while(pila != NULL){
 		eliminar(pila, dato);
+
 		if(pila!=NULL){
 			cout<<dato<<" , ";
 		}
@@ -48,7 +52,7 @@ void agregar(Nodo *&pila, int n){
 	cout<<"Dato: "<<n<<" agregado"<<endl;
 }
 
-void eliminar(Nodo *& pila, int & n){
+void eliminar(Nodo *&pila, int &n){
 	Nodo *aux = pila;
 	n = aux->dato;
 	pila = aux->siguiente;

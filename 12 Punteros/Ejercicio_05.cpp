@@ -1,6 +1,6 @@
 /*
- Pedir al usuario N números, almacenarlos en un arreglo dinámico posteriormente ordenar los números en orden ascendente y mostrarlos en pantalla. 
-NOTA: Utilizar cualquier método de ordenamiento.
+ Pedir al usuario N nï¿½meros, almacenarlos en un arreglo dinï¿½mico posteriormente ordenar los nï¿½meros en orden ascendente y mostrarlos en pantalla. 
+NOTA: Utilizar cualquier mï¿½todo de ordenamiento.
 */
 #include <iostream>
 #include <conio.h>
